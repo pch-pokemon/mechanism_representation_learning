@@ -1,0 +1,2 @@
+case,Ref_source_num,sample_id,alloy_id,condition_id,lgkp_true,lgkp_pred,abs_error
+Case 1,r208,s355,Ni-Cr-W-Al-Ti superalloy,900,-11.85414339,-11.54724503,0.30689836204513377

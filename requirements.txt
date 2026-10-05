@@ -1,0 +1,20 @@
+# Core numerical and data-processing stack
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+scikit-learn>=1.3,<2
+joblib>=1.3,<2
+
+# Deep learning and scientific-language encoder
+torch>=2.2
+transformers>=4.38,<5
+
+# Hyperparameter optimization
+optuna>=3.6,<5
+
+# Dimensionality reduction and visualization
+umap-learn>=0.5.5,<1
+matplotlib>=3.8,<4
+
+# Excel I/O
+openpyxl>=3.1,<4

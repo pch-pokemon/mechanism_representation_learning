@@ -1,0 +1,51 @@
+{
+  "channel_id": 2,
+  "channel_name": "internal_oxidation_and_selective_oxidation",
+  "json_path": "joint_six_channel.json",
+  "out_dir": "outputs\\scibert\\mechanism_embedding2",
+  "text_mode": "text",
+  "total_rows": 675,
+  "valid_rows": 482,
+  "masked_rows": 193,
+  "encoder_type": "scibert",
+  "raw_embedding_dimension": 768,
+  "normalize_embeddings": true,
+  "max_length": 256,
+  "pca": {
+    "16": {
+      "status": "saved",
+      "explained_variance_ratio_sum": 0.5947799682617188,
+      "embedding_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim16.csv",
+      "pca_model": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim16.joblib"
+    },
+    "32": {
+      "status": "saved",
+      "explained_variance_ratio_sum": 0.7561639547348022,
+      "embedding_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim32.csv",
+      "pca_model": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim32.joblib"
+    },
+    "64": {
+      "status": "saved",
+      "explained_variance_ratio_sum": 0.8816698789596558,
+      "embedding_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim64.csv",
+      "pca_model": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim64.joblib"
+    },
+    "128": {
+      "status": "saved",
+      "explained_variance_ratio_sum": 0.9626520276069641,
+      "embedding_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim128.csv",
+      "pca_model": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim128.joblib"
+    }
+  },
+  "generated_files": {
+    "raw_embedding_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_scibert_text.csv",
+    "embedding_dim16_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim16.csv",
+    "pca_dim16_joblib": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim16.joblib",
+    "embedding_dim32_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim32.csv",
+    "pca_dim32_joblib": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim32.joblib",
+    "embedding_dim64_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim64.csv",
+    "pca_dim64_joblib": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim64.joblib",
+    "embedding_dim128_csv": "outputs\\scibert\\mechanism_embedding2\\second_channel_embedding_scibert_text_dim128.csv",
+    "pca_dim128_joblib": "outputs\\scibert\\mechanism_embedding2\\pca_channel2_scibert_text_dim128.joblib"
+  }
+}

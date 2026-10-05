@@ -1,0 +1,2 @@
+case,Ref_source_num,sample_id,alloy_id,condition_id,lgkp_true,lgkp_pred,abs_error
+Case 2,r383,s490,0Co5NiTi,1250,-9.427178413,-9.269542694,0.15763571882167327
